@@ -1,0 +1,27 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Large trained models
+checkpoints/
+outputs/
+models/
+
+# Raw experiment logging
+wandb/
+logs/
+runs/
+events.out.tfevents.*
+
+# Hugging Face training state
+trainer_state.json
+optimizer.pt
+scheduler.pt
+rng_state.pth
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
